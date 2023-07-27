@@ -18,7 +18,7 @@
 				"MathWorks.language-matlab"
 			],
 			"settings": {
-				"terminal.integrated.shell": "usr/bin/zsh"
+				"terminal.integrated.shell": "/usr/bin/zsh"
 			}
 		}
 	}
