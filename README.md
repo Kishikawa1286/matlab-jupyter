@@ -6,7 +6,7 @@
 
 You need to have a valid Matlab lisence to use this image.
 
-If you don't have an account, sign up on [MathWorks website](mathworks.com).
+If you don't have an account, sign up on [MathWorks website](https://mathworks.com).
 
 ### VSCode Dev Containers Extension
 
@@ -25,7 +25,7 @@ code matlab-jupyter
 
 Download Matlab installer for Linux.
 
-You can find it on the [lisence center on MathWorks website](mathworks.com/licensecenter).
+You can find it on the [lisence center on MathWorks website](https://mathworks.com/licensecenter).
 
 The installer file is originally named like `matlab_R20XXx_glnxa64.zip`.
 
