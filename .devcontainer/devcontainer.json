@@ -1,0 +1,25 @@
+{
+	"name": "Matlab-Jupyter",
+	"image": "python:3.11.4-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/common-utils:2": {
+			"installZsh": true,
+			"configureZshAsDefaultShell": true,
+			"installOhMyZsh": true,
+			"upgradePackages": true
+		}
+	},
+	"postCreateCommand": "sh ./.devcontainer/postCreateCommand.sh",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"ms-toolsai.jupyter",
+				"ms-python.python",
+				"MathWorks.language-matlab"
+			],
+			"settings": {
+				"terminal.integrated.shell": "usr/bin/zsh"
+			}
+		}
+	}
+}
