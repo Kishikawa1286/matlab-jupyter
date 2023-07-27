@@ -1,6 +1,6 @@
 {
 	"name": "Matlab-Jupyter",
-	"image": "python:3.11.4-bullseye",
+	"dockerFile": "Dockerfile",
 	"features": {
 		"ghcr.io/devcontainers/features/common-utils:2": {
 			"installZsh": true,

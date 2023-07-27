@@ -39,6 +39,6 @@ After putting the installer, launch dev-container with VSCode.
 
 Matlab installer will be launched. Follow the instructions.
 
-Set installation path as the default value (`/usr/local/MATLAB/R2023a`).
+**Don't forget to create symbolic link to `/usr/local/bin/`!**
 
 Now you can find Matlab kernel in "Select kernel" > "Jupyter kernel..."!
